@@ -10,10 +10,16 @@ const path = require("path"); // manejo de rutas de archivos
 const { DB_USER, DB_PASSWORD, DB_HOST } = process.env; //llamo las variables de conexion
 
 const sequelize = new Sequelize(
-  `postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/BD_GUIA`,
+  `postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/db_00zs`,
   {
     logging: false,
     native: false,
+    dialectOptions: {
+      ssl: {
+        require: true, // Si es necesario requerir SSL
+        rejectUnauthorized: false // Si estás teniendo problemas de autorización
+      }
+    }
   }
 );
 
@@ -38,7 +44,7 @@ sequelize.models = Object.fromEntries(capsEntries);
 
 //-------------------------------------------------------------------------------------------------------------
 // defino los modelos 
-const { Users } = sequelize.models;                // en models esta el modelo que se va a crear en POSTGRES
+const { USUARIOS } = sequelize.models;                // en models esta el modelo que se va a crear en POSTGRES
 
 //------------------------------------------------------------------------------------------------------------------
 

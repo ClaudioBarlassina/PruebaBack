@@ -1,8 +1,7 @@
-const express  = require("express");
+const express = require("express");
 const Users = require("./Users");
 
 const app = express.Router();
-
 
 app.use("/", Users);
 
