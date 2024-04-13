@@ -4,7 +4,7 @@ const createUser = require("../Controllers/postUsers");
 
 const router = Router();
 
-router.get("/users", async (req, res) => {
+router.get("/", async (req, res) => {
   // const users = await getAllUsers();
   // res.status(200).json(users);
    res.send("users")
