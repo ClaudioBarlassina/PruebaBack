@@ -14,12 +14,12 @@ const sequelize = new Sequelize(
   {
     logging: false,
     native: false,
-    dialectOptions: {
-      ssl: {
-        require: true, // Si es necesario requerir SSL
-        rejectUnauthorized: false // Si estás teniendo problemas de autorización
-      }
-    }
+    // dialectOptions: {
+    //   ssl: {
+    //     require: true, // Si es necesario requerir SSL
+    //     rejectUnauthorized: false // Si estás teniendo problemas de autorización
+    //   }
+    // }
   }
 );
 
