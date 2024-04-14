@@ -1,6 +1,7 @@
 const { Router } = require("express");
 const getAllUsers = require("../Controllers/getAllUsers");
 const createUser = require("../Controllers/postUsers");
+const updateUsers = require("../Controllers/updateUser");
 
 const router = Router();
 
@@ -28,9 +29,12 @@ router.get("/paises", async (req, res) => {
 router.put("/users/:usersID", async (req, res) => {
   try {
     const usersID = req.params.usersID;
-    // const userData = req.body; 
-    console.log(usersID)
-    res.send(usersID)
+    const userData = req.body;
+    const updateUser = await updateUsers(usersID,userData)
+
+    
+    console.log(updateUser)
+    res.status(200).json(updateUser)
 
   } catch (error) {
     
