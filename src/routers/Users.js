@@ -13,7 +13,7 @@ router.get("/", async (req, res) => {
 router.post("/users", async (req, res) => {
   try {
     const userdata = req.body; // en el caso de postgres local poner req.body[0]
-    console.log(userdata)
+    console.log(userdata);
     const newUsers = await createUser(userdata);
     res.status(200).json(newUsers);
   } catch (error) {
@@ -27,17 +27,13 @@ router.get("/paises", async (req, res) => {
 });
 
 router.put("/users/:usersID", async (req, res) => {
-  try {
+ 
     const usersID = req.params.usersID;
     // const userData = req.body;
-    const updateUser = await updateUsers(usersID)
+    const updateUser = await updateUsers(usersID);
 
-    
-    console.log(updateUser)
-    res.status(200).json(updateUser)
-
-  } catch (error) {
-    
-  }
-})
+    console.log(updateUser);
+    res.status(200).json(updateUser);
+  
+});
 module.exports = router;
