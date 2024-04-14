@@ -30,7 +30,7 @@ router.put("/users/:usersID", async (req, res) => {
   try {
     const usersID = req.params.usersID;
     // const userData = req.body;
-    const updateUser = await updateUsers(usersID,userData)
+    const updateUser = await updateUsers(usersID)
 
     
     console.log(updateUser)
