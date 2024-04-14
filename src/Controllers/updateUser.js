@@ -1,7 +1,7 @@
 const { USUARIOS } = require("../db")
 
-const updateUsers = (UsersID , UsersData) => {
-    const users = USUARIOS.findByPk(UsersID)
+const updateUsers = async(UsersID , UsersData) => {
+    const users = await USUARIOS.findByPk(UsersID)
     return users;
 }
 

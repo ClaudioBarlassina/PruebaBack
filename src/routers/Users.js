@@ -29,7 +29,7 @@ router.get("/paises", async (req, res) => {
 router.put("/users/:usersID", async (req, res) => {
   try {
     const usersID = req.params.usersID;
-    const userData = req.body;
+    // const userData = req.body;
     const updateUser = await updateUsers(usersID,userData)
 
     
