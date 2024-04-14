@@ -29,7 +29,7 @@ router.put("/users/:usersID", async (req, res) => {
   try {
     const usersID = req.params.usersID;
     // const userData = req.body; 
-    console.log(userData)
+    console.log(usersID)
     res.send(usersID)
 
   } catch (error) {
