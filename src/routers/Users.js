@@ -29,10 +29,10 @@ router.get("/paises", async (req, res) => {
 router.put("/users/:usersID", async (req, res) => {
  
     const usersID = req.params.usersID;
-    // const userData = req.body;
-    const updateUser = await updateUsers(usersID);
+     const userData = req.body;
+    const updateUser = await updateUsers(userData, usersID);
 
-    console.log(updateUser);
+    console.log();
     res.status(200).json(updateUser);
   
 });

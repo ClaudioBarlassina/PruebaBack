@@ -1,8 +1,11 @@
 const { USUARIOS } = require("../db")
 
-const updateUsers = async(usersID) => {
+const updateUsers = async (userData, usersID) => {
+    
     const users = await USUARIOS.findByPk(usersID);
-    return users;
+    
+   const New = await users.update(userData)
+    return New;
 }
 
 module.exports = updateUsers;
