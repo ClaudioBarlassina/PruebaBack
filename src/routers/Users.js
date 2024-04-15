@@ -2,6 +2,7 @@ const { Router } = require("express");
 const getAllUsers = require("../Controllers/getAllUsers");
 const createUser = require("../Controllers/postUsers");
 const updateUsers = require("../Controllers/updateUser");
+const SearchUser = require("../Controllers/SearchUser")
 
 const router = Router();
 
@@ -45,7 +46,7 @@ router.put("/users/:usersID", async (req, res) => {
 //--------------------------------------------------------------------------------
 //Busqueda por ID
 router.get("/users/:usersID", async (req, res) => {
-  
+
   const userID = req.params.usersID;
   const search = await SearchUser(userID);
 
