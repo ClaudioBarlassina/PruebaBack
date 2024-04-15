@@ -5,7 +5,7 @@ const updateUsers = async (userData, usersID) => {
     const users = await USUARIOS.findByPk(usersID);
     
    const New = await users.update(userData)
-    return userData;
+    return New;
 }
 
 module.exports = updateUsers;
