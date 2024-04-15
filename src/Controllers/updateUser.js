@@ -4,7 +4,7 @@ const updateUsers = async (userData, usersID) => {
     
     const users = await USUARIOS.findByPk(usersID);
     
-   const New = await users.update(userData)
+   const New = await users.Update(userData)
     return New;
 }
 
