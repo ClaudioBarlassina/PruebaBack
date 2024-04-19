@@ -18,14 +18,14 @@ router.get("/", async (req, res) => {
 //----------------------------------------------------------------------
 //-------Ingresa los usuarios------------------
 router.post("/users", async (req, res) => {
-  try {
+  // try {
     const userdata = req.body; // en el caso de postgres local poner req.body[0]
     console.log(userdata);
     const newUsers = await createUser(userdata);
     res.status(200).json(newUsers);
-  } catch (error) {
-    res.send(error.detail);
-  }
+  // } catch (error) {
+  //   res.send(error.detail);
+  // }
 });
 router.get("/paises", async (req, res) => {
   // const users = await getAllUsers();
