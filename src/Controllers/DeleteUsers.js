@@ -13,7 +13,7 @@ const DeleteUsers = async (userID) => {
         nombre: user.nombre,
         correo: user.correo
     }
-    const confirmacion = await askConfirmacio("Estas Seguto que deseas eliminar este usuario?")
+    const confirmacion = await askConfirmation("Estas Seguto que deseas eliminar este usuario?")
 
     if (confirmacion.toLowerCase() === "s") {
         await user.destroy()
