@@ -63,7 +63,7 @@ router.delete("/users/:userID", async (req, res) => {
 
 
     const user = await DeleteUsers(userID)
-    res.status(200).json(user)
+  res.status(200).json(user);
    
       
 
