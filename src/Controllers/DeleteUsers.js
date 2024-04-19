@@ -10,8 +10,8 @@ const DeleteUsers = async (userID) => {
 
     const userToDelete = {
         id: user.id,
-        nombre: user.nombre,
-        correo: user.correo
+        nombre: user.Nombre,
+       
     }
    
     user.destroy(user)
