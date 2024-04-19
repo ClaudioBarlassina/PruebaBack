@@ -2,7 +2,8 @@ const { Router } = require("express");
 const getAllUsers = require("../Controllers/getAllUsers");
 const createUser = require("../Controllers/postUsers");
 const updateUsers = require("../Controllers/updateUser");
-const SearchUser = require("../Controllers/SearchUser")
+const SearchUser = require("../Controllers/SearchUser");
+const DeleteUsers = require("../Controllers/DeleteUsers");
 
 const router = Router();
 
@@ -52,5 +53,21 @@ router.get("/users/:usersID", async (req, res) => {
 
   res.status(200).json(search);
 });
+
+//----------------------------------------------------------------------------------
+// Eliminar un registro
+
+
+router.delete("/users/:userID", async (req, res) => {
+  const userID = req.params.userID;
+
+
+    const user = await DeleteUsers(userID)
+    res.status(200).json(user)
+   
+      
+
+ 
+})
 
 module.exports = router;
