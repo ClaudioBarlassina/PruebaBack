@@ -1,0 +1,213 @@
+[
+    {
+      "id": 1,
+      "nombre": "Juan Pérez",
+      "edad": 25,
+      "correo": "juan@example.com",
+      "telefono": "555-1234-5678"
+    },
+    {
+      "id": 2,
+      "nombre": "María García",
+      "edad": 30,
+      "correo": "maria@example.com",
+      "telefono": "555-9876-5432"
+    },
+    {
+      "id": 3,
+      "nombre": "Carlos Rodríguez",
+      "edad": 28,
+      "correo": "carlos@example.com",
+      "telefono": "555-4567-8901"
+    },
+    {
+      "id": 4,
+      "nombre": "Ana Martínez",
+      "edad": 35,
+      "correo": "ana@example.com",
+      "telefono": "555-8765-4321"
+    },
+    {
+      "id": 5,
+      "nombre": "Luisa López",
+      "edad": 22,
+      "correo": "luisa@example.com",
+      "telefono": "555-2345-6789"
+    },
+    {
+      "id": 6,
+      "nombre": "Javier Hernández",
+      "edad": 40,
+      "correo": "javier@example.com",
+      "telefono": "555-7654-3210"
+    },
+    {
+      "id": 7,
+      "nombre": "Laura González",
+      "edad": 27,
+      "correo": "laura@example.com",
+      "telefono": "555-5432-1098"
+    },
+    {
+      "id": 8,
+      "nombre": "Diego Díaz",
+      "edad": 33,
+      "correo": "diego@example.com",
+      "telefono": "555-3210-9876"
+    },
+    {
+      "id": 9,
+      "nombre": "Sofía Ruiz",
+      "edad": 29,
+      "correo": "sofia@example.com",
+      "telefono": "555-0987-6543"
+    },
+    {
+      "id": 10,
+      "nombre": "Pedro Sánchez",
+      "edad": 31,
+      "correo": "pedro@example.com",
+      "telefono": "555-2109-8765"
+    },
+    {
+      "id": 11,
+      "nombre": "Lucía Fernández",
+      "edad": 26,
+      "correo": "lucia@example.com",
+      "telefono": "555-6789-0123"
+    },
+    {
+      "id": 12,
+      "nombre": "Miguel Pérez",
+      "edad": 34,
+      "correo": "miguel@example.com",
+      "telefono": "555-9012-3456"
+    },
+    {
+      "id": 13,
+      "nombre": "Elena Gómez",
+      "edad": 23,
+      "correo": "elena@example.com",
+      "telefono": "555-7890-1234"
+    },
+    {
+      "id": 14,
+      "nombre": "Alejandro Martín",
+      "edad": 32,
+      "correo": "alejandro@example.com",
+      "telefono": "555-0123-4567"
+    },
+    {
+      "id": 15,
+      "nombre": "Paula Jiménez",
+      "edad": 36,
+      "correo": "paula@example.com",
+      "telefono": "555-8901-2345"
+    },
+    {
+      "id": 16,
+      "nombre": "Roberto López",
+      "edad": 24,
+      "correo": "roberto@example.com",
+      "telefono": "555-2345-6789"
+    },
+    {
+      "id": 17,
+      "nombre": "Carmen Pérez",
+      "edad": 37,
+      "correo": "carmen@example.com",
+      "telefono": "555-6789-0123"
+    },
+    {
+      "id": 18,
+      "nombre": "Daniel Torres",
+      "edad": 28,
+      "correo": "daniel@example.com",
+      "telefono": "555-9012-3456"
+    },
+    {
+      "id": 19,
+      "nombre": "Adriana Ruiz",
+      "edad": 30,
+      "correo": "adriana@example.com",
+      "telefono": "555-1234-5678"
+    },
+    {
+      "id": 20,
+      "nombre": "Ricardo García",
+      "edad": 29,
+      "correo": "ricardo@example.com",
+      "telefono": "555-5678-9012"
+    },
+    {
+      "id": 21,
+      "nombre": "Ana María Sánchez",
+      "edad": 31,
+      "correo": "anamaria@example.com",
+      "telefono": "555-8901-2345"
+    },
+    {
+      "id": 22,
+      "nombre": "Jorge Martínez",
+      "edad": 27,
+      "correo": "jorge@example.com",
+      "telefono": "555-3456-7890"
+    },
+    {
+      "id": 23,
+      "nombre": "Silvia Hernández",
+      "edad": 35,
+      "correo": "silvia@example.com",
+      "telefono": "555-6789-0123"
+    },
+    {
+      "id": 24,
+      "nombre": "Manuel García",
+      "edad": 33,
+      "correo": "manuel@example.com",
+      "telefono": "555-1234-5678"
+    },
+    {
+      "id": 25,
+      "nombre": "Marta Rodríguez",
+      "edad": 26,
+      "correo": "marta@example.com",
+      "telefono": "555-9012-3456"
+    },
+    {
+      "id": 26,
+      "nombre": "Fernando López",
+      "edad": 32,
+      "correo": "fernando@example.com",
+      "telefono": "555-2345-6789"
+    },
+    {
+      "id": 27,
+      "nombre": "Patricia Díaz",
+      "edad": 29,
+      "correo": "patricia@example.com",
+      "telefono": "555-5678-9012"
+    },
+    {
+      "id": 28,
+      "nombre": "Raúl Fernández",
+      "edad": 34,
+      "correo": "raul@example.com",
+      "telefono": "555-7890-1234"
+    },
+    {
+      "id": 29,
+      "nombre": "Cristina Sánchez",
+      "edad": 30,
+      "correo": "cristina@example.com",
+      "telefono": "555-0123-4567"
+    },
+    {
+      "id": 30,
+      "nombre": "José Manuel Martínez",
+      "edad": 28,
+      "correo": "josemanuel@example.com",
+      "telefono": "555-3456-7890"
+    }
+  ]
+  
